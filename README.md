@@ -507,15 +507,22 @@ The categories keep the list readable as it grows. Repository descriptions come 
 
 This is a personal index, not an endorsement of every project. Check a repository’s license, maintenance activity, security posture, and documentation before using it in production.
 
-The original snapshot came from the public stars on [github.com/pkhamre](https://github.com/pkhamre?tab=stars). The snapshot notes a different total on GitHub’s profile; this file uses the public API result. “Non-archived” means GitHub did not mark a repository as archived at synchronization time, not that it is actively maintained.
+This index uses the public stars on [github.com/pkhamre](https://github.com/pkhamre?tab=stars), fetched through GitHub’s REST API. The profile’s displayed total may differ from the API result. “Non-archived” means GitHub did not mark a repository as archived at synchronization time, not that it is actively maintained.
 
 ## Updating this list
 
-The original generator and API response are not included. Until an automatic synchronization process is added, maintain this index manually:
+Run the sync tool with Python 3.9 or newer; no packages are required:
 
-1. Fetch the public stars with the [GitHub REST API](https://docs.github.com/en/rest/activity/starring#list-repositories-starred-by-a-user), following pagination. With GitHub CLI: `gh api --paginate 'users/pkhamre/starred?per_page=100'`.
-2. Exclude entries with `archived: true`; record the snapshot date and omitted count. Only change the synchronization date after checking the complete result, not after editorial changes.
-3. Compare repository names with the full index, add or remove entries as needed, and choose categories by primary purpose. Keep manual category corrections when refreshing metadata. Preserve useful links, especially migration destinations; use “Repository description not provided.” if metadata has no description.
-4. Update category and total counts, review the editor’s picks, then run `python3 check_index.py` and inspect `git diff` before committing.
+```sh
+python3 sync_stars.py --dry-run  # Preview the changes without writing
+python3 sync_stars.py            # Update README.md
+python3 check_index.py
+```
 
-The check validates local structure and counts; it does not verify live links, archive status, or maintenance activity.
+Set `GITHUB_TOKEN` (or `GH_TOKEN`) in your environment if you need GitHub’s authenticated API rate limit. The tool fetches every page of [pkhamre’s public stars](https://docs.github.com/en/rest/activity/starring#list-repositories-starred-by-a-user); it does not include private repositories. A failed fetch or validation leaves the README unchanged.
+
+Existing entries keep their category, order, and edited description. New stars go into “Other projects,” sorted by repository name, with their GitHub descriptions and links preserved. Unstarred and archived repositories leave the index and editor’s picks. The tool updates the snapshot date and all counts after a complete fetch; it does not add new editor’s picks automatically.
+
+After syncing, review `git diff`, categorize new entries by primary purpose, and edit descriptions or picks as needed. If you move entries between categories, update the contents counts and rerun `python3 check_index.py`. The README itself stores these editorial choices for the next sync; there is no separate category configuration.
+
+Run `python3 test_sync_stars.py` for the offline sync checks. The index checker validates local structure and counts; it does not verify live links, archive status, or maintenance activity.
