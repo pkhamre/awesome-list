@@ -3,20 +3,20 @@
 A categorized index of my public GitHub stars. It focuses on useful tools,
 infrastructure, AI, software engineering, and projects worth exploring.
 
-> Last synchronized: 2026-09-19 · 426 active repositories shown; 75 archived repositories omitted
+> Last synchronized: 2026-09-19 · 426 non-archived repositories shown; 75 archived repositories omitted
 
 ## Contents
 
-- [AI / Agents](#ai--agents) (76)
-- [Kubernetes / DevOps](#kubernetes--devops) (84)
-- [Security & privacy](#security--privacy) (13)
-- [Databases & data](#databases--data) (29)
-- [Web frameworks & frontend](#web-frameworks--frontend) (116)
-- [Developer tools & CLI](#developer-tools--cli) (27)
+- [AI / Agents](#ai--agents) (70)
+- [Kubernetes / DevOps](#kubernetes--devops) (87)
+- [Security & privacy](#security--privacy) (14)
+- [Databases & data](#databases--data) (30)
+- [Web frameworks & frontend](#web-frameworks--frontend) (115)
+- [Developer tools & CLI](#developer-tools--cli) (29)
 - [Self-hosted services](#self-hosted-services) (8)
-- [Resources & references](#resources--references) (5)
-- [Ruby ecosystem](#ruby-ecosystem) (44)
-- [Other projects](#other-projects) (24)
+- [Resources & references](#resources--references) (7)
+- [Ruby ecosystem](#ruby-ecosystem) (41)
+- [Other projects](#other-projects) (25)
 
 ## Editor’s picks
 
@@ -35,15 +35,14 @@ The projects I would start with:
 
 ## Full index
 
-The categories keep the list readable as it grows. Repository descriptions come from each project’s public GitHub metadata; links inside those descriptions have been removed.
+The categories keep the list readable as it grows. Repository descriptions come from each project’s public GitHub metadata, with occasional edits for clarity. Migration and reference links are preserved when needed to understand an entry.
 
 ### AI / Agents
 
-- [`rustfs/rustfs`](https://github.com/rustfs/rustfs): RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.
+- [`Opencode-DCP/opencode-dynamic-context-pruning`](https://github.com/Opencode-DCP/opencode-dynamic-context-pruning): Dynamic context pruning plugin for OpenCode - intelligently manages conversation context to optimize token usage
 - [`NousResearch/hermes-agent`](https://github.com/NousResearch/hermes-agent): The agent that grows with you
 - [`code-yeongyu/oh-my-openagent`](https://github.com/code-yeongyu/oh-my-openagent): OmO: Just type "mass ulw" keyword with your prompt. Now you are the master of graph engineering.
 - [`cloudflare/security-audit-skill`](https://github.com/cloudflare/security-audit-skill): A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings
-- [`mojatter/s2`](https://github.com/mojatter/s2): Go object storage library and S3-compatible server — a lightweight MinIO alternative
 - [`D4Vinci/Scrapling`](https://github.com/D4Vinci/Scrapling): 🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here
 - [`vibevoice-community/VibeVoice`](https://github.com/vibevoice-community/VibeVoice): VibeVoice: Expressive, longform conversational speech synthesis. (Community fork)
 - [`multimodal-art-projection/YuE`](https://github.com/multimodal-art-projection/YuE): YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.
@@ -68,7 +67,7 @@ The categories keep the list readable as it grows. Repository descriptions come 
 - [`ayghri/i-have-adhd`](https://github.com/ayghri/i-have-adhd): A skill to stop your coding agent from burying the answer. ADHD-friendly output.
 - [`chaitanyagiri/munder-difflin`](https://github.com/chaitanyagiri/munder-difflin): A local multi-agent harness that works with your existing Claude Code, Codex subscriptions, allows you to run an office of agents
 - [`mukul975/Anthropic-Cybersecurity-Skills`](https://github.com/mukul975/Anthropic-Cybersecurity-Skills): 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0
-- [`awesome-opencode/awesome-opencode`](https://github.com/awesome-opencode/awesome-opencode): A curated list of awesome plugins, themes, agents, projects, and resources for
+- [`awesome-opencode/awesome-opencode`](https://github.com/awesome-opencode/awesome-opencode): A curated list of plugins, themes, agents, projects, and resources for [OpenCode](https://opencode.ai).
 - [`guillaumemeyer/watermarks-remover`](https://github.com/guillaumemeyer/watermarks-remover): A privacy-first app that strips AI watermarks from content you own.
 - [`deepseek-ai/deepseek-harness`](https://github.com/deepseek-ai/deepseek-harness): DeepSeek Harness: Everything is a Plugin.
 - [`msitarzewski/agency-agents`](https://github.com/msitarzewski/agency-agents): A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
@@ -105,18 +104,17 @@ The categories keep the list readable as it grows. Repository descriptions come 
 - [`alinaqi/maggy`](https://github.com/alinaqi/maggy): What started as an opinionated Claude Code setup kit is now an autonomous AI engineering command center
 - [`ilyasibrahim/claude-agents-coordination`](https://github.com/ilyasibrahim/claude-agents-coordination): Multi-agent coordination system for Claude Code with institutional memory
 - [`OthmanAdi/planning-with-files`](https://github.com/OthmanAdi/planning-with-files): Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Install from npm, the Claude Code plugin marketplace, or npx skills. Codex, Cursor, OpenCode, 60+ agents.
-- [`veloxpack/csi-driver-rclone`](https://github.com/veloxpack/csi-driver-rclone): CSI driver built on top of rclone bringing cloud storage mounts to your pods with ease.
 - [`github/spec-kit`](https://github.com/github/spec-kit): 💫 Toolkit to help you get started with Spec-Driven Development
 - [`VoltAgent/awesome-claude-code-subagents`](https://github.com/VoltAgent/awesome-claude-code-subagents): A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases
 - [`wshobson/agents`](https://github.com/wshobson/agents): Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi
 - [`MIATECHPARTNERS/PromptChains`](https://github.com/MIATECHPARTNERS/PromptChains): Prompt chains maximize intelligence and results when using LLMs
 - [`n8n-io/n8n`](https://github.com/n8n-io/n8n): Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
-- [`openstatusHQ/openstatus`](https://github.com/openstatusHQ/openstatus): 🫖 Status page with uptime monitoring & API monitoring as code 🫖
-- [`drduh/YubiKey-Guide`](https://github.com/drduh/YubiKey-Guide): Community guide to using YubiKey for GnuPG and SSH - protect secrets with hardware crypto.
-- [`netdata/netdata`](https://github.com/netdata/netdata): The fastest path to AI-powered full stack observability, even for lean teams.
-- [`parse-community/parse-server`](https://github.com/parse-community/parse-server): Parse Server for Node.js / Express
 
 ### Kubernetes / DevOps
+
+- [`veloxpack/csi-driver-rclone`](https://github.com/veloxpack/csi-driver-rclone): CSI driver built on top of rclone bringing cloud storage mounts to your pods with ease.
+- [`openstatusHQ/openstatus`](https://github.com/openstatusHQ/openstatus): 🫖 Status page with uptime monitoring & API monitoring as code 🫖
+- [`netdata/netdata`](https://github.com/netdata/netdata): The fastest path to AI-powered full stack observability, even for lean teams.
 
 - [`ByteByteGoHq/system-design-101`](https://github.com/ByteByteGoHq/system-design-101): Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.
 - [`renovatebot/renovate`](https://github.com/renovatebot/renovate): Home of the Renovate CLI: Cross-platform Dependency Automation by Mend.io
@@ -205,6 +203,8 @@ The categories keep the list readable as it grows. Repository descriptions come 
 
 ### Security & privacy
 
+- [`drduh/YubiKey-Guide`](https://github.com/drduh/YubiKey-Guide): Community guide to using YubiKey for GnuPG and SSH - protect secrets with hardware crypto.
+
 - [`imthenachoman/How-To-Secure-A-Linux-Server`](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server): An evolving how-to guide for securing a Linux server.
 - [`GuacLive/Guac-Media-Server`](https://github.com/GuacLive/Guac-Media-Server): Customized RTMP-server for Guac (has per-user authentication)
 - [`digitalocean/nginxconfig.io`](https://github.com/digitalocean/nginxconfig.io): ⚙️ NGINX config generator on steroids 💉
@@ -221,11 +221,13 @@ The categories keep the list readable as it grows. Repository descriptions come 
 
 ### Databases & data
 
+- [`rustfs/rustfs`](https://github.com/rustfs/rustfs): RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.
+- [`mojatter/s2`](https://github.com/mojatter/s2): Go object storage library and S3-compatible server — a lightweight MinIO alternative
+
 - [`IntelliStream-DataHub/intellistream-chat`](https://github.com/IntelliStream-DataHub/intellistream-chat): Self-hosted team chat — channels, threads, DMs, search, polls, SSO. One JVM, one Postgres, one systemd unit. Java 25, Spring Boot 4, embedded Lucene.
 - [`tcgdex/cards-database`](https://github.com/tcgdex/cards-database): Pokémon Trading Card Game Card (TCG) Database for the TCGdex API. ⭐ Leave a star if the project interest you !
 - [`dbeaver/dbeaver`](https://github.com/dbeaver/dbeaver): Free universal database tool and SQL client
 - [`open-mpic/aws-lambda-python`](https://github.com/open-mpic/aws-lambda-python): An implementation of the Open MPIC API using AWS-Lambda serverless fucntions written in Python as well as AWS API Gateway.
-- [`madrilene/eleventy-excellent`](https://github.com/madrilene/eleventy-excellent): Eleventy starter with CUBE CSS, Every Layout and global design tokens. A workflow for modern & resilient websites, based on the CUBE CSS boilerplate.
 - [`owncast/owncast`](https://github.com/owncast/owncast): Take control over your live stream video by running it yourself. Streaming + chat out of the box.
 - [`leeoniya/uPlot`](https://github.com/leeoniya/uPlot): 📈 A small, fast chart for time series, lines, areas, ohlc & bars
 - [`streamaserver/streama`](https://github.com/streamaserver/streama): Self hosted streaming media server.
@@ -249,9 +251,12 @@ The categories keep the list readable as it grows. Repository descriptions come 
 - [`twitter/twemproxy`](https://github.com/twitter/twemproxy): A fast, light-weight proxy for memcached and redis
 - [`davidcelis/recommendable`](https://github.com/davidcelis/recommendable): +1::-1: A recommendation engine using Likes and Dislikes for your Ruby app
 - [`jcoleman/tomcat-redis-session-manager`](https://github.com/jcoleman/tomcat-redis-session-manager): Redis-backed non-sticky session store for Apache Tomcat
-- [`schacon/showoff`](https://github.com/schacon/showoff): moved to puppetlabs/showoff!
+- [`schacon/showoff`](https://github.com/schacon/showoff): Moved to [puppetlabs/showoff](https://github.com/puppetlabs/showoff).
 
 ### Web frameworks & frontend
+
+- [`parse-community/parse-server`](https://github.com/parse-community/parse-server): Parse Server for Node.js / Express
+- [`madrilene/eleventy-excellent`](https://github.com/madrilene/eleventy-excellent): Eleventy starter with CUBE CSS, Every Layout and global design tokens. A workflow for modern & resilient websites, based on the CUBE CSS boilerplate.
 
 - [`AgriciDaniel/youtubepro`](https://github.com/AgriciDaniel/youtubepro): Local-first YouTube research, grounded AI insights, script writing, and thumbnail creation.
 - [`kikkupico/ambientcss`](https://github.com/kikkupico/ambientcss): A physics-based lighting system for CSS. Define a light source, and every shadow, highlight and surface gradient follows from it — calibrated against Blender raytraces.
@@ -261,10 +266,8 @@ The categories keep the list readable as it grows. Repository descriptions come 
 - [`zakirullin/files.md`](https://github.com/zakirullin/files.md): 🌱 Private, quiet space for thinking. Simple app for .md files.
 - [`chenglou/pretext`](https://github.com/chenglou/pretext): Fast, accurate & comprehensive text measurement & layout
 - [`emdash-cms/emdash`](https://github.com/emdash-cms/emdash): EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to WordPress
-- [`Opencode-DCP/opencode-dynamic-context-pruning`](https://github.com/Opencode-DCP/opencode-dynamic-context-pruning): Dynamic context pruning plugin for OpenCode - intelligently manages conversation context to optimize token usage
 - [`alexdeathway/headstart-django`](https://github.com/alexdeathway/headstart-django): A starter template Dockerizing django with postgres, gunicorn, nginx and certbot.
 - [`suitenumerique/docs`](https://github.com/suitenumerique/docs): Docs is an open-source text editor: web-native, made for real-time collaboration, cleanly structured documents and sub-documents with full ownership of your data. Built to scale with Django and React.
-- [`immich-app/immich`](https://github.com/immich-app/immich): High performance self-hosted photo and video management solution.
 - [`thejsway/thejsway`](https://github.com/thejsway/thejsway): The JavaScript Way book
 - [`pi-hole/docs`](https://github.com/pi-hole/docs): The official Pi-hole documentation
 - [`jerzyszajner/krisetinget`](https://github.com/jerzyszajner/krisetinget): Repository description not provided.
@@ -277,8 +280,7 @@ The categories keep the list readable as it grows. Repository descriptions come 
 - [`picocss/pico`](https://github.com/picocss/pico): Minimal CSS Framework for semantic HTML
 - [`VGraupera/1on1-questions`](https://github.com/VGraupera/1on1-questions): Mega list of 1 on 1 meeting questions compiled from a variety to sources
 - [`feross/thanks`](https://github.com/feross/thanks): 🙌 Give thanks to the open source maintainers you depend on! ✨
-- [`antonmedv/fx`](https://github.com/antonmedv/fx): Terminal JSON viewer & processor
-- [`ourdarkfuture/kakotopia`](https://github.com/ourdarkfuture/kakotopia): Minimal ghost them built off of getskeleton for
+- [`ourdarkfuture/kakotopia`](https://github.com/ourdarkfuture/kakotopia): Minimal Ghost theme built on Skeleton for [ourdarkfuture.org](https://ourdarkfuture.org).
 - [`react/create-react-app`](https://github.com/react/create-react-app): Set up a modern web app by running one command.
 - [`gohugoio/hugo`](https://github.com/gohugoio/hugo): The world’s fastest framework for building websites.
 - [`stijnvc/holo-alfa`](https://github.com/stijnvc/holo-alfa): A minimalist, mobile first Jekyll theme.
@@ -307,7 +309,7 @@ The categories keep the list readable as it grows. Repository descriptions come 
 - [`datafolklabs/ruby-parseconfig`](https://github.com/datafolklabs/ruby-parseconfig): Ruby Config File Parser for Standard Unix/Linux Type Config Files
 - [`bpampuch/pdfmake`](https://github.com/bpampuch/pdfmake): Client/server side PDF printing in pure JavaScript
 - [`typicode/json-server`](https://github.com/typicode/json-server): Get a full fake REST API with zero coding in less than 30 seconds (seriously)
-- [`adamwulf/app-launch-guide`](https://github.com/adamwulf/app-launch-guide): This aims to be an indie dev's definitive guide to building and launching your app, including pre-launch, marketing, building, QA, buzz building, and launch. More info at
+- [`adamwulf/app-launch-guide`](https://github.com/adamwulf/app-launch-guide): A guide to building and launching an indie app, covering pre-launch, marketing, QA, and launch.
 - [`moklick/frontend-stuff`](https://github.com/moklick/frontend-stuff): 📝 A continuously expanded list of frameworks, libraries and tools I used/want to use for building things on the web. Mostly JavaScript.
 - [`Semantic-Org/Semantic-UI`](https://github.com/Semantic-Org/Semantic-UI): Semantic is a UI component framework based around useful principles from natural language.
 - [`vclfiddle/vclfiddle`](https://github.com/vclfiddle/vclfiddle): Repository description not provided.
@@ -355,7 +357,7 @@ The categories keep the list readable as it grows. Repository descriptions come 
 - [`iandevlin/html5bones`](https://github.com/iandevlin/html5bones): The HTML5 template that goes back to basics
 - [`buu700/html-resume`](https://github.com/buu700/html-resume): HTML résumé template + PDF generator
 - [`idan/gistio`](https://github.com/idan/gistio): A gist-backed pretty display for markdown.
-- [`mdbootstrap/bootstrap-toggle-buttons`](https://github.com/mdbootstrap/bootstrap-toggle-buttons): Bootstrap-toggle-buttons has moved to
+- [`mdbootstrap/bootstrap-toggle-buttons`](https://github.com/mdbootstrap/bootstrap-toggle-buttons): Moved to [nostalgiaz/bootstrap-switch](https://github.com/nostalgiaz/bootstrap-switch).
 - [`imsky/holder`](https://github.com/imsky/holder): city_sunrise: Client-side image placeholders.
 - [`nhoss2/nodewiki`](https://github.com/nhoss2/nodewiki): A simple wiki system
 - [`joemiller/bunchr`](https://github.com/joemiller/bunchr): A Ruby/Rake DSL for building and packaging software into omnibus-style packages
@@ -372,6 +374,9 @@ The categories keep the list readable as it grows. Repository descriptions come 
 
 ### Developer tools & CLI
 
+- [`antonmedv/fx`](https://github.com/antonmedv/fx): Terminal JSON viewer & processor
+- [`restic/restic`](https://github.com/restic/restic): Fast, secure, efficient backup program
+
 - [`Camilool8/kubestronaut-sim`](https://github.com/Camilool8/kubestronaut-sim): Repository description not provided.
 - [`orhun/git-cliff`](https://github.com/orhun/git-cliff): A highly customizable Changelog Generator that follows Conventional Commit specifications ⛰️
 - [`cfenollosa/bashblog`](https://github.com/cfenollosa/bashblog): A single Bash script to create blogs. Download, run, write, done!
@@ -384,13 +389,13 @@ The categories keep the list readable as it grows. Repository descriptions come 
 - [`Gazler/githug`](https://github.com/Gazler/githug): Git your game on!
 - [`sbadia/puppet-gitlab`](https://github.com/sbadia/puppet-gitlab): Puppet module for manage GitLab installation
 - [`auduny/statpipe`](https://github.com/auduny/statpipe): Poor mans Splunk. Command line real time statistics while tailing logs
-- [`apenwarr/sshuttle`](https://github.com/apenwarr/sshuttle): Wrong project! You should head over to
+- [`apenwarr/sshuttle`](https://github.com/apenwarr/sshuttle): Development moved to [sshuttle/sshuttle](https://github.com/sshuttle/sshuttle).
 - [`mteodori/jira-git-plugin`](https://github.com/mteodori/jira-git-plugin): Repository description not provided.
 - [`petems/tugboat`](https://github.com/petems/tugboat): A command line tool for interacting with your DigitalOcean droplets.
 - [`rubyworks/clik`](https://github.com/rubyworks/clik): Kernel#cli
 - [`joemiller/sensu-cli`](https://github.com/joemiller/sensu-cli): command-line interface to the Sensu REST API
 - [`cjohansen/em_rugged`](https://github.com/cjohansen/em_rugged): Asynchronous Rugged (libgit2 bindings for Ruby) for EventMachine.
-- [`rerun/rerun`](https://github.com/rerun/rerun): Core rerun. See also
+- [`rerun/rerun`](https://github.com/rerun/rerun): Core rerun. See also [rerun-modules](https://github.com/rerun-modules).
 - [`postmodern/chruby`](https://github.com/postmodern/chruby): Changes the current Ruby
 - [`towerhe/jolokia`](https://github.com/towerhe/jolokia): Jolokia Ruby Client
 - [`tim-group/java-statsd-client`](https://github.com/tim-group/java-statsd-client): a java statsd client library
@@ -402,6 +407,8 @@ The categories keep the list readable as it grows. Repository descriptions come 
 
 ### Self-hosted services
 
+- [`immich-app/immich`](https://github.com/immich-app/immich): High performance self-hosted photo and video management solution.
+
 - [`knadh/listmonk`](https://github.com/knadh/listmonk): High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.
 - [`odysseus-dev/odysseus`](https://github.com/odysseus-dev/odysseus): Self-hosted AI workspace.
 - [`karpathy/nanochat`](https://github.com/karpathy/nanochat): The best ChatGPT that $100 can buy.
@@ -409,9 +416,11 @@ The categories keep the list readable as it grows. Repository descriptions come 
 - [`wallabag/wallabag`](https://github.com/wallabag/wallabag): wallabag is a self hostable application for saving web pages: Save and classify articles. Read them later. Freely.
 - [`stringer-rss/stringer`](https://github.com/stringer-rss/stringer): A self-hosted, anti-social RSS reader.
 - [`Yaco-Sistemas/yith-library-server`](https://github.com/Yaco-Sistemas/yith-library-server): Password storage server
-- [`jordansissel/sysadvent`](https://github.com/jordansissel/sysadvent): Systems Administrator Advent Calendar
 
 ### Resources & references
+
+- [`jordansissel/sysadvent`](https://github.com/jordansissel/sysadvent): Systems Administrator Advent Calendar
+- [`kilimchoi/engineering-blogs`](https://github.com/kilimchoi/engineering-blogs): A curated list of engineering blogs
 
 - [`neutraltone/awesome-stock-resources`](https://github.com/neutraltone/awesome-stock-resources): city_sunrise: A collection of links for free stock photography, video and Illustration websites
 - [`fcambus/nginx-resources`](https://github.com/fcambus/nginx-resources): A collection of resources covering Nginx, Nginx + Lua, OpenResty and Tengine
@@ -422,10 +431,7 @@ The categories keep the list readable as it grows. Repository descriptions come 
 ### Ruby ecosystem
 
 - [`cyli/logstash-output-slack`](https://github.com/cyli/logstash-output-slack): Slack output plugin for logstash
-- [`supertriodo/Arena-Tracker`](https://github.com/supertriodo/Arena-Tracker): Arena Tracker is a deck tracker that gives you a lot of extra info while playing Hearthstone.
-- [`kilimchoi/engineering-blogs`](https://github.com/kilimchoi/engineering-blogs): A curated list of engineering blogs
 - [`davidesantangelo/webinspector`](https://github.com/davidesantangelo/webinspector): Ruby gem to inspect completely a web page. It scrapes a given URL, and returns you its meta, links, images more.
-- [`HearthSim/Hearthstone-Deck-Tracker`](https://github.com/HearthSim/Hearthstone-Deck-Tracker): A deck tracker and deck manager for Hearthstone on Windows
 - [`tpope/gem-shut-the-fuck-up`](https://github.com/tpope/gem-shut-the-fuck-up): Gem SHUT THE FUCK UP
 - [`freenerd/flickr-uploader`](https://github.com/freenerd/flickr-uploader): Upload all files of a directory to a flickr photoset. Resume if upload stalls ...
 - [`maciakl/Sample-Jekyll-Site`](https://github.com/maciakl/Sample-Jekyll-Site): A simplistic site for Jekyll
@@ -468,6 +474,9 @@ The categories keep the list readable as it grows. Repository descriptions come 
 
 ### Other projects
 
+- [`supertriodo/Arena-Tracker`](https://github.com/supertriodo/Arena-Tracker): Arena Tracker is a deck tracker that gives you a lot of extra info while playing Hearthstone.
+- [`HearthSim/Hearthstone-Deck-Tracker`](https://github.com/HearthSim/Hearthstone-Deck-Tracker): A deck tracker and deck manager for Hearthstone on Windows
+
 - [`pkhamre/obs-virtualbg`](https://github.com/pkhamre/obs-virtualbg): An OBS plugin for Zoom/Meet-like virtual background feature.
 - [`nstielau/redoresetrepair`](https://github.com/nstielau/redoresetrepair): A set of helpful words when engaging with others
 - [`ipython/xkcd-font`](https://github.com/ipython/xkcd-font): The xkcd font
@@ -477,7 +486,6 @@ The categories keep the list readable as it grows. Repository descriptions come 
 - [`elastic/beats`](https://github.com/elastic/beats): tropical_fish: Beats - Lightweight shippers for Elasticsearch & Logstash
 - [`dmpop/pellicola`](https://github.com/dmpop/pellicola): Pastebin for your photos
 - [`jgrahamc/webwatch`](https://github.com/jgrahamc/webwatch): Small program to download a web page, see if a string appears in it and send email if it does
-- [`restic/restic`](https://github.com/restic/restic): Fast, secure, efficient backup program
 - [`Jack000/Expose`](https://github.com/Jack000/Expose): A simple static site generator for photoessays
 - [`phanan/htaccess`](https://github.com/phanan/htaccess): ✂A collection of useful .htaccess snippets.
 - [`jmxtrans/jmxtrans`](https://github.com/jmxtrans/jmxtrans): jmxtrans
@@ -499,4 +507,15 @@ The categories keep the list readable as it grows. Repository descriptions come 
 
 This is a personal index, not an endorsement of every project. Check a repository’s license, maintenance activity, security posture, and documentation before using it in production.
 
-Generated from the public stars on [github.com/pkhamre](https://github.com/pkhamre?tab=stars). GitHub’s profile currently displays a different total; this file uses the public API result.
+The original snapshot came from the public stars on [github.com/pkhamre](https://github.com/pkhamre?tab=stars). The snapshot notes a different total on GitHub’s profile; this file uses the public API result. “Non-archived” means GitHub did not mark a repository as archived at synchronization time, not that it is actively maintained.
+
+## Updating this list
+
+The original generator and API response are not included. Until an automatic synchronization process is added, maintain this index manually:
+
+1. Fetch the public stars with the [GitHub REST API](https://docs.github.com/en/rest/activity/starring#list-repositories-starred-by-a-user), following pagination. With GitHub CLI: `gh api --paginate 'users/pkhamre/starred?per_page=100'`.
+2. Exclude entries with `archived: true`; record the snapshot date and omitted count. Only change the synchronization date after checking the complete result, not after editorial changes.
+3. Compare repository names with the full index, add or remove entries as needed, and choose categories by primary purpose. Keep manual category corrections when refreshing metadata. Preserve useful links, especially migration destinations; use “Repository description not provided.” if metadata has no description.
+4. Update category and total counts, review the editor’s picks, then run `python3 check_index.py` and inspect `git diff` before committing.
+
+The check validates local structure and counts; it does not verify live links, archive status, or maintenance activity.
