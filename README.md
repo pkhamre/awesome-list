@@ -3,11 +3,11 @@
 A categorized index of my public GitHub stars. It focuses on useful tools,
 infrastructure, AI, software engineering, and projects worth exploring.
 
-> Last synchronized: 2026-09-19 · 426 non-archived repositories shown; 75 archived repositories omitted
+> Last synchronized: 2026-10-03 · 438 non-archived repositories shown; 75 archived repositories omitted
 
 ## Contents
 
-- [AI / Agents](#ai--agents) (70)
+- [AI / Agents](#ai--agents) (67)
 - [Kubernetes / DevOps](#kubernetes--devops) (87)
 - [Security & privacy](#security--privacy) (14)
 - [Databases & data](#databases--data) (30)
@@ -16,7 +16,7 @@ infrastructure, AI, software engineering, and projects worth exploring.
 - [Self-hosted services](#self-hosted-services) (8)
 - [Resources & references](#resources--references) (7)
 - [Ruby ecosystem](#ruby-ecosystem) (41)
-- [Other projects](#other-projects) (25)
+- [Other projects](#other-projects) (40)
 
 ## Editor’s picks
 
@@ -39,7 +39,6 @@ The categories keep the list readable as it grows. Repository descriptions come 
 
 ### AI / Agents
 
-- [`Opencode-DCP/opencode-dynamic-context-pruning`](https://github.com/Opencode-DCP/opencode-dynamic-context-pruning): Dynamic context pruning plugin for OpenCode - intelligently manages conversation context to optimize token usage
 - [`NousResearch/hermes-agent`](https://github.com/NousResearch/hermes-agent): The agent that grows with you
 - [`code-yeongyu/oh-my-openagent`](https://github.com/code-yeongyu/oh-my-openagent): OmO: Just type "mass ulw" keyword with your prompt. Now you are the master of graph engineering.
 - [`cloudflare/security-audit-skill`](https://github.com/cloudflare/security-audit-skill): A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings
@@ -54,7 +53,6 @@ The categories keep the list readable as it grows. Repository descriptions come 
 - [`VoltAgent/awesome-design-md`](https://github.com/VoltAgent/awesome-design-md): A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.
 - [`debpalash/VoiceStudio`](https://github.com/debpalash/VoiceStudio): VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
 - [`jingyaogong/minimind`](https://github.com/jingyaogong/minimind): 🧠 Train a 64M-parameter LLM from scratch in just 2h!
-- [`Gitlawb/openclaude`](https://github.com/Gitlawb/openclaude): runs anywhere. uses anything
 - [`zhaoxuya520/reverse-skill`](https://github.com/zhaoxuya520/reverse-skill): Reverse engineering, authorized penetration testing, and security research skill router pack. AI-powered routing, on-demand toolchain bootstrapping, and a self-evolving knowledge base. Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients.
 - [`tashfeenahmed/freellmapi`](https://github.com/tashfeenahmed/freellmapi): 7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.
 - [`rohitg00/ai-engineering-from-scratch`](https://github.com/rohitg00/ai-engineering-from-scratch): Learn it. Build it. Ship it for others.
@@ -65,7 +63,6 @@ The categories keep the list readable as it grows. Repository descriptions come 
 - [`emilkowalski/skills`](https://github.com/emilkowalski/skills): Skills for Designers and Engineers.
 - [`Leonxlnx/taste-skill`](https://github.com/Leonxlnx/taste-skill): Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop
 - [`ayghri/i-have-adhd`](https://github.com/ayghri/i-have-adhd): A skill to stop your coding agent from burying the answer. ADHD-friendly output.
-- [`chaitanyagiri/munder-difflin`](https://github.com/chaitanyagiri/munder-difflin): A local multi-agent harness that works with your existing Claude Code, Codex subscriptions, allows you to run an office of agents
 - [`mukul975/Anthropic-Cybersecurity-Skills`](https://github.com/mukul975/Anthropic-Cybersecurity-Skills): 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0
 - [`awesome-opencode/awesome-opencode`](https://github.com/awesome-opencode/awesome-opencode): A curated list of plugins, themes, agents, projects, and resources for [OpenCode](https://opencode.ai).
 - [`guillaumemeyer/watermarks-remover`](https://github.com/guillaumemeyer/watermarks-remover): A privacy-first app that strips AI watermarks from content you own.
@@ -115,7 +112,6 @@ The categories keep the list readable as it grows. Repository descriptions come 
 - [`veloxpack/csi-driver-rclone`](https://github.com/veloxpack/csi-driver-rclone): CSI driver built on top of rclone bringing cloud storage mounts to your pods with ease.
 - [`openstatusHQ/openstatus`](https://github.com/openstatusHQ/openstatus): 🫖 Status page with uptime monitoring & API monitoring as code 🫖
 - [`netdata/netdata`](https://github.com/netdata/netdata): The fastest path to AI-powered full stack observability, even for lean teams.
-
 - [`ByteByteGoHq/system-design-101`](https://github.com/ByteByteGoHq/system-design-101): Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.
 - [`renovatebot/renovate`](https://github.com/renovatebot/renovate): Home of the Renovate CLI: Cross-platform Dependency Automation by Mend.io
 - [`makeplane/plane`](https://github.com/makeplane/plane): 🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.
@@ -204,7 +200,6 @@ The categories keep the list readable as it grows. Repository descriptions come 
 ### Security & privacy
 
 - [`drduh/YubiKey-Guide`](https://github.com/drduh/YubiKey-Guide): Community guide to using YubiKey for GnuPG and SSH - protect secrets with hardware crypto.
-
 - [`imthenachoman/How-To-Secure-A-Linux-Server`](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server): An evolving how-to guide for securing a Linux server.
 - [`GuacLive/Guac-Media-Server`](https://github.com/GuacLive/Guac-Media-Server): Customized RTMP-server for Guac (has per-user authentication)
 - [`digitalocean/nginxconfig.io`](https://github.com/digitalocean/nginxconfig.io): ⚙️ NGINX config generator on steroids 💉
@@ -223,7 +218,6 @@ The categories keep the list readable as it grows. Repository descriptions come 
 
 - [`rustfs/rustfs`](https://github.com/rustfs/rustfs): RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.
 - [`mojatter/s2`](https://github.com/mojatter/s2): Go object storage library and S3-compatible server — a lightweight MinIO alternative
-
 - [`IntelliStream-DataHub/intellistream-chat`](https://github.com/IntelliStream-DataHub/intellistream-chat): Self-hosted team chat — channels, threads, DMs, search, polls, SSO. One JVM, one Postgres, one systemd unit. Java 25, Spring Boot 4, embedded Lucene.
 - [`tcgdex/cards-database`](https://github.com/tcgdex/cards-database): Pokémon Trading Card Game Card (TCG) Database for the TCGdex API. ⭐ Leave a star if the project interest you !
 - [`dbeaver/dbeaver`](https://github.com/dbeaver/dbeaver): Free universal database tool and SQL client
@@ -257,7 +251,6 @@ The categories keep the list readable as it grows. Repository descriptions come 
 
 - [`parse-community/parse-server`](https://github.com/parse-community/parse-server): Parse Server for Node.js / Express
 - [`madrilene/eleventy-excellent`](https://github.com/madrilene/eleventy-excellent): Eleventy starter with CUBE CSS, Every Layout and global design tokens. A workflow for modern & resilient websites, based on the CUBE CSS boilerplate.
-
 - [`AgriciDaniel/youtubepro`](https://github.com/AgriciDaniel/youtubepro): Local-first YouTube research, grounded AI insights, script writing, and thumbnail creation.
 - [`kikkupico/ambientcss`](https://github.com/kikkupico/ambientcss): A physics-based lighting system for CSS. Define a light source, and every shadow, highlight and surface gradient follows from it — calibrated against Blender raytraces.
 - [`firecrawl/anydoc`](https://github.com/firecrawl/anydoc): Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.
@@ -376,7 +369,6 @@ The categories keep the list readable as it grows. Repository descriptions come 
 
 - [`antonmedv/fx`](https://github.com/antonmedv/fx): Terminal JSON viewer & processor
 - [`restic/restic`](https://github.com/restic/restic): Fast, secure, efficient backup program
-
 - [`Camilool8/kubestronaut-sim`](https://github.com/Camilool8/kubestronaut-sim): Repository description not provided.
 - [`orhun/git-cliff`](https://github.com/orhun/git-cliff): A highly customizable Changelog Generator that follows Conventional Commit specifications ⛰️
 - [`cfenollosa/bashblog`](https://github.com/cfenollosa/bashblog): A single Bash script to create blogs. Download, run, write, done!
@@ -408,7 +400,6 @@ The categories keep the list readable as it grows. Repository descriptions come 
 ### Self-hosted services
 
 - [`immich-app/immich`](https://github.com/immich-app/immich): High performance self-hosted photo and video management solution.
-
 - [`knadh/listmonk`](https://github.com/knadh/listmonk): High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.
 - [`odysseus-dev/odysseus`](https://github.com/odysseus-dev/odysseus): Self-hosted AI workspace.
 - [`karpathy/nanochat`](https://github.com/karpathy/nanochat): The best ChatGPT that $100 can buy.
@@ -421,7 +412,6 @@ The categories keep the list readable as it grows. Repository descriptions come 
 
 - [`jordansissel/sysadvent`](https://github.com/jordansissel/sysadvent): Systems Administrator Advent Calendar
 - [`kilimchoi/engineering-blogs`](https://github.com/kilimchoi/engineering-blogs): A curated list of engineering blogs
-
 - [`neutraltone/awesome-stock-resources`](https://github.com/neutraltone/awesome-stock-resources): city_sunrise: A collection of links for free stock photography, video and Illustration websites
 - [`fcambus/nginx-resources`](https://github.com/fcambus/nginx-resources): A collection of resources covering Nginx, Nginx + Lua, OpenResty and Tengine
 - [`kahun/awesome-sysadmin`](https://github.com/kahun/awesome-sysadmin): A curated list of amazingly awesome open source sysadmin resources inspired by Awesome PHP.
@@ -476,7 +466,6 @@ The categories keep the list readable as it grows. Repository descriptions come 
 
 - [`supertriodo/Arena-Tracker`](https://github.com/supertriodo/Arena-Tracker): Arena Tracker is a deck tracker that gives you a lot of extra info while playing Hearthstone.
 - [`HearthSim/Hearthstone-Deck-Tracker`](https://github.com/HearthSim/Hearthstone-Deck-Tracker): A deck tracker and deck manager for Hearthstone on Windows
-
 - [`pkhamre/obs-virtualbg`](https://github.com/pkhamre/obs-virtualbg): An OBS plugin for Zoom/Meet-like virtual background feature.
 - [`nstielau/redoresetrepair`](https://github.com/nstielau/redoresetrepair): A set of helpful words when engaging with others
 - [`ipython/xkcd-font`](https://github.com/ipython/xkcd-font): The xkcd font
@@ -500,6 +489,21 @@ The categories keep the list readable as it grows. Repository descriptions come 
 - [`joemiller/puppet-newrelic`](https://github.com/joemiller/puppet-newrelic): puppet module for installing the New Relic server monitor
 - [`thumbor/thumbor`](https://github.com/thumbor/thumbor): thumbor is an open-source photo thumbnail service by globo.com
 - [`jolokia/jolokia`](https://github.com/jolokia/jolokia): JMX on Capsaicin
+- [`adam-bouafia/Kubernetes-Certified-Administrator`](https://github.com/adam-bouafia/Kubernetes-Certified-Administrator): CKA 2026 update (Kubernetes v1.35) of Walid Shaari's CKA resource guide, with a troubleshooting method and study guides.
+- [`anthropics/financial-services`](https://github.com/anthropics/financial-services): Repository description not provided.
+- [`block/buzz`](https://github.com/block/buzz): A hive mind communication platform
+- [`cs341-illinois/coursebook`](https://github.com/cs341-illinois/coursebook): Open Source Introductory Systems Programming Textbook for the University of Illinois
+- [`earendil-works/pi`](https://github.com/earendil-works/pi): AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI
+- [`firelex/jeff`](https://github.com/firelex/jeff): Millisecond decisions, any domain: a 0.8B open "System 1" model that picks between your options with calibrated probabilities. One base, swappable LoRA adapters, on your own hardware.
+- [`freestylefly/awesome-gpt-image-2`](https://github.com/freestylefly/awesome-gpt-image-2): Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。
+- [`google/ax`](https://github.com/google/ax): Google's open agentic orchestration runtime
+- [`HarnessMD/munder-difflin`](https://github.com/HarnessMD/munder-difflin): an open-source alternative to the dots, bots and muses of the world, run an office of claude code/codex like agents on your laptop, sandboxes or anywhere, uses your existing subscriptions
+- [`mgba-emu/mgba`](https://github.com/mgba-emu/mgba): mGBA Game Boy Advance Emulator
+- [`oblien/openship`](https://github.com/oblien/openship): Self-hosted deployment platform
+- [`Tarquinen/opencode-dynamic-context-pruning`](https://github.com/Tarquinen/opencode-dynamic-context-pruning): Dynamic context pruning plugin for OpenCode - intelligently manages conversation context to optimize token usage
+- [`Twigpine/openclaude`](https://github.com/Twigpine/openclaude): runs anywhere. uses anything
+- [`wrr/drop`](https://github.com/wrr/drop): Linux sandboxing that doesn't get in your way
+- [`zhouxiaoka/autoclip`](https://github.com/zhouxiaoka/autoclip): AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping &amp; content repurposing.
 
 ---
 
