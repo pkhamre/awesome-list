@@ -1,4 +1,4 @@
-# Pål-Kristian’s Awesome Stars
+# pkhamre awesome list
 
 A categorized index of my public GitHub stars. It focuses on useful tools,
 infrastructure, AI, software engineering, and projects worth exploring.
