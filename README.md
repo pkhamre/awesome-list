@@ -5,19 +5,6 @@ infrastructure, AI, software engineering, and projects worth exploring.
 
 > Last synchronized: 2026-10-03 · 438 non-archived repositories shown; 75 archived repositories omitted
 
-## Contents
-
-- [AI / Agents](#ai--agents) (67)
-- [Kubernetes / DevOps](#kubernetes--devops) (87)
-- [Security & privacy](#security--privacy) (14)
-- [Databases & data](#databases--data) (30)
-- [Web frameworks & frontend](#web-frameworks--frontend) (115)
-- [Developer tools & CLI](#developer-tools--cli) (29)
-- [Self-hosted services](#self-hosted-services) (8)
-- [Resources & references](#resources--references) (7)
-- [Ruby ecosystem](#ruby-ecosystem) (41)
-- [Other projects](#other-projects) (40)
-
 ## Editor’s picks
 
 The projects I would start with:
@@ -32,6 +19,19 @@ The projects I would start with:
 - [`karpathy/nanochat`](https://github.com/karpathy/nanochat): The best ChatGPT that $100 can buy.
 - [`mkdocs/mkdocs`](https://github.com/mkdocs/mkdocs): Project documentation with Markdown.
 - [`varnish/gateway`](https://github.com/varnish/gateway): Gateway API implemention for Varnish Cache and Varnish Enterprise
+
+## Contents
+
+- [AI / Agents](#ai--agents) (67)
+- [Kubernetes / DevOps](#kubernetes--devops) (87)
+- [Security & privacy](#security--privacy) (14)
+- [Databases & data](#databases--data) (30)
+- [Web frameworks & frontend](#web-frameworks--frontend) (115)
+- [Developer tools & CLI](#developer-tools--cli) (29)
+- [Self-hosted services](#self-hosted-services) (8)
+- [Resources & references](#resources--references) (7)
+- [Ruby ecosystem](#ruby-ecosystem) (41)
+- [Other projects](#other-projects) (40)
 
 ## Full index
 
